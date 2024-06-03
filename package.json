@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "build": "echo yay"
+    "build": "mkdir -p public && echo yay $(date) > public/index.html"
   },
   "keywords": [],
   "author": "Dannel Albert",
