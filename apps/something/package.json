@@ -1,0 +1,18 @@
+{
+  "name": "something",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "build": "mkdir -p public && echo yay $(date) > public/index.html"
+  },
+  "keywords": [],
+  "author": "Dannel Albert",
+  "license": "ISC",
+  "engineStrict": true,
+  "engines": {
+    "npm": ">=8.3.0",
+    "node": ">=16.0.0"
+  }
+}
